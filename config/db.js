@@ -3,7 +3,7 @@ require('dotenv').config({ path: 'variables.env' });
 
 const conectarDB = async () => {
     try {
-        await mongoose.connect(process.env.DB_MONGO, {
+        await mongoose.connect('mongodb+srv://root:katty@cluster0.3nkjo.mongodb.net/merntask?retryWrites=true&w=majority', {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useFindAndModify: false
