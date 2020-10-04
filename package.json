@@ -1,5 +1,5 @@
 {
-  "name": "merntaskservidor",
+  "name": "mernapp",
   "version": "1.0.0",
   "description": "MERN API para MERN TASKS",
   "main": "index.js",
