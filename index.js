@@ -16,7 +16,6 @@ app.use( express.json({ extended: true }));
 
 // puerto de la app
 const port = process.env.PORT || 4000;
-//Probar
 
 // Importar rutas
 app.use('/api/usuarios', require('./routes/usuarios'));
